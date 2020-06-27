@@ -66,7 +66,7 @@ function App() {
   }];
 
   return (
-    <div className="container">
+    <div>
       <h1 className="Rights">COVID-19 TRACKER APP By Talib Sarwar</h1>
       <CardDeck>
         <Card bg="secondary" text="white" className="text-center" style={{ margin: "10px" }}>
