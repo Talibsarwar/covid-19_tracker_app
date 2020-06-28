@@ -198,7 +198,7 @@ function Symptom() {
             Source:{" "}
             <a
               href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-coronaviruses#:~:text=protect"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               style={{ color: "blue" }}
             >
               who.int
