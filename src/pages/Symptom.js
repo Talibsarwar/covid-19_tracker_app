@@ -47,7 +47,7 @@ function Symptom() {
             Source:{" "}
             <a
               href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               style={{ color: "blue" }}
             >
               who.int
@@ -87,7 +87,7 @@ function Symptom() {
             Seek immediate medical attention if you have serious symptoms.
             Always call before visiting your doctor or health facility.
           </p>
-          <img src={Doctor} style={{ height: 350 }} />
+          <img src={Doctor} style={{ height: 350 }} alt="doctor pic" />
           <p>
             People with mild symptoms who are otherwise healthy should manage
             their symptoms at home.
@@ -100,7 +100,7 @@ function Symptom() {
             Source:{" "}
             <a
               href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-coronaviruses#:~:text=symptoms"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               style={{ color: "blue" }}
             >
               who.int
@@ -147,7 +147,7 @@ function Symptom() {
             Source:{" "}
             <a
               href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               style={{ color: "blue" }}
             >
               who.int
