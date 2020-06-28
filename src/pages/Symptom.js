@@ -119,11 +119,11 @@ function Symptom() {
             <li>
               Clean your hands often. Use soap and water, or an alcohol-based
               hand rub.
-              <img src={CleanHand} style={{ height: 450 }} />
+              <img src={CleanHand} style={{ height: 450 }} alt="CleanHand pic" />
             </li>
             <li>
               Maintain a safe distance from anyone who is coughing or sneezing.
-              <img src={Distance} style={{ height: 350 }} />
+              <img src={Distance} style={{ height: 350 }} alt="Distance pic"/>
             </li>
 
             <li>Don’t touch your eyes, nose or mouth.</li>
@@ -175,10 +175,10 @@ function Symptom() {
             attention from adults during difficult times. Keep to regular
             routines and schedules as much as possible.
           </p>
-          <img src={Home} style={{ height: 150 }} />
-          <img src={Call} style={{ height: 250 }} />
-          <img src={Workout} style={{ height: 250 }} />
-          <img src={Food} style={{ height: 200 }} />
+          <img src={Home} style={{ height: 150 }} alt="Home pic"/>
+          <img src={Call} style={{ height: 250 }} alt="Call pic"/>
+          <img src={Workout} style={{ height: 250 }} alt="Workout pic"/>
+          <img src={Food} style={{ height: 200 }} alt="Food pic"/>
           <p>
             It is normal to feel sad, stressed, or confused during a crisis.
             Talking to people you trust, such as friends and family, can help.
