@@ -19,10 +19,14 @@ function Home() {
   const [darkTheme, setDarkTheme] = useState(false);
 
   useEffect(() => {
-    axios
+    loadlatest();
+  }, []);
+
+  const loadlatest = async () => {
+     axios
       .all([
-        axios.get("https://corona.lmao.ninja/v2/all"),
-        axios.get("https://corona.lmao.ninja/v2/countries"),
+        await axios.get("https://corona.lmao.ninja/v2/all"),
+        await axios.get("https://corona.lmao.ninja/v2/countries"),
       ])
       .then((responseArr) => {
         setLatest(responseArr[0].data);
@@ -32,7 +36,7 @@ function Home() {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }
 
   const date = new Date(parseInt(latest.updated));
   const lastUpdated = date.toString();
