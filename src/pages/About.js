@@ -31,7 +31,7 @@ function About() {
         <h4>How to connect?</h4>
         <div style={{ fontSize: "20px" }}>
           You can connect me via linkedIn{" "}
-          <a href="https://www.linkedin.com/in/talib-sarwar-338417189/" target="_blank">
+          <a href="https://www.linkedin.com/in/talib-sarwar-338417189/" target="_blank" rel="noopener noreferrer">
             here
           </a>
           .
@@ -42,7 +42,7 @@ function About() {
           Click{" "}
           <a
             href="https://www.youtube.com/channel/UCyH9EuiKr7dNkpUm6XGWNZA"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
           >
             here
           </a>{" "}
