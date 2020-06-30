@@ -32,3 +32,21 @@ footer {
   background: #231f20;
   color: white;
 }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  }
