@@ -31,6 +31,9 @@ footer {
   min-height: 15vh;
   background: #231f20;
   color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 body {
@@ -38,24 +41,6 @@ body {
   margin: 0;
   background-size: cover;
   }
-  
-  .container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .title{
-    text-align: center;
-  }
-
-  .Search{
-    text-align: center;
-  }
-
-  .Graph{
-    margin-left: 200px;
-    }
 
   @media only screen and (max-width: 770px) {
     .container {

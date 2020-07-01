@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./pages/Home";
 import About from "./pages/About.js";
-import Graph from "./pages/Graph";
+import Graph from "./pages/Graph/Graph";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Symptom from "./pages/Symptom";
@@ -18,6 +18,12 @@ function App() {
           <Route path="/graph" component={Graph} />
           <Route path="/about" component={About} />
         </Switch>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <Footer />
       </div>
